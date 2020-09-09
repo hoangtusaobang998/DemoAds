@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
         RewardedAdUtils.get().loadAds(new RewardedAdUtils.AdsRewarReceiver() {
             @Override
             public void onUserEarnedReward(RewardItem rewardItem) {
-
+                    /*
+                    * Phần thưởng trả về khi người dùng xem xong ads
+                    * */
             }
 
             @Override
